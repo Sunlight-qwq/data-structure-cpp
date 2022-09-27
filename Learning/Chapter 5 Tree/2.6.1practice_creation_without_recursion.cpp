@@ -38,7 +38,7 @@ Status BiTreeCreation(BiTree &T)
     bool flag = false;
     if(ch == '#')
     {
-        p = NULL;
+        T = NULL;
         return OK;
     }
     T = new BiNode;
